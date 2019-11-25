@@ -1,0 +1,230 @@
+html {
+    font-size: 1rem;
+}
+h1{
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+h2{
+  font-size: 28px;
+}
+h3{
+  font-weight: lighter;
+  font-size: 18px;
+  color: #D81E5B;
+  margin-bottom: 2rem;
+}
+p{
+  margin-bottom: 2rem;
+  font-weight: 400;
+  text-align: left;
+}
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* padding: 50px; */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+a {
+    color: Black;
+}
+
+a:hover {
+    color: #D81E5B;
+    text-decoration: none;
+}
+
+.rightNav{
+  float: right;
+}
+.rightNav a{
+  padding: 10px;
+}
+
+.welcome{
+  margin: 100px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.welcome *{
+  text-align: center;
+}
+.welcome img{
+  width: 50px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/* flex
+.profiles {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.Pcard{
+  background-color: white;
+  background-image: linear-gradient(#EF798A, white, white);
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.Pcard:hover{
+  box-shadow: 0px 0px 20px #FF8194;
+  /* border-style: solid;
+  border-color: pink;
+  border-width: 3px; */
+  transform: scale(1.01);
+}
+
+.profiles{
+  background-color: #FFF2F4;
+  background-image: url("../img/pink_background.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-top: 75px;
+  padding-bottom: 50px;
+
+}
+.profiles * {
+  text-align: center;
+}
+.row {
+  width: 1000px;
+  margin: auto;
+}
+/* .Pcard {
+  background-color: black;
+} */
+
+#cupidImg {
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.content{
+  width: 800px;
+  margin: auto;
+}
+
+.profilePage{
+  background-image: url("../img/pinkgradient.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+}
+.profileInfo{
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.profileInfo h1{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.things{
+  text-align: center;
+  margin: 0px;
+}
+.subtext{
+  text-align: center;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.section{
+  margin-bottom: 50px;
+}
+
+.section img{
+  margin: 30px;
+}
+
+.quote{
+  font-weight: 100;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  background-color: #D81E5B;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+button.navbar-toggler{
+  margin: 0px;
+}
+
+.formFooter-heightMask{
+  height: 0px !important;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #D81E5B;
+}
+footer > p{
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: lightblue;
+    margin: 0px;
+  } */
+  .row{
+    width: 100%;
+  }
+  .Pcard{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  header{
+    padding: 20px;
+  }
+  .rightNav{
+    float:none;
+    text-align: center;
+    padding: 10px;
+  }
+  nav{
+    text-align: center;
+  }
+  .profileInfo, .content{
+    width: auto;
+    padding: 25px;
+  }
+  .welcome{
+    margin: 50px;
+  }
+}
